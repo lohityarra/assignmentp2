@@ -4,3 +4,4 @@ tasks:
 vscode:
   extensions:
      - https://open-vsx.org/api/tabajara-krausburg/jacamo4code/1.2.1/file/tabajara-krausburg.jacamo4code-1.2.1.vsix
+     - tabajara-krausburg.jacamo4code

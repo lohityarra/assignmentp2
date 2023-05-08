@@ -1,24 +1,18 @@
 // Agent bob in project t1
 
 /* Initial beliefs and rules */
-member(bob)
+member(carol)
 
-skill(c).
-skill(pysqlthon). 
+skill(java).
+skill(python). 
 skill(docs). 
 skill(comm). 
 skill(design). 
 skill(creativity).
 /* Initial goals */
 
-
+!start.
 
 /* Plans */
 
-
-// Agent bob in project greeting.mas2j
-
-+hello[source(A)] <- .print("I received a 'hello' from ",A).
-
-
-
++!start : true <- .print("hello world.").

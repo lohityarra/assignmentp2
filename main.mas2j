@@ -9,10 +9,10 @@
 
 MAS demo {
 
-    environment: example.Env(10)
+    infrastructure: Centralised
 
-    agents: bob;
-            alice;
+    agents: alice;
+            manager;
 
     aslSourcePath: "src/agt";
 }
