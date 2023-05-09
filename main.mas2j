@@ -13,6 +13,9 @@ MAS demo {
 
     agents: alice;
             manager;
+            bob;
+            dan;
+            carol;
 
     aslSourcePath: "src/agt";
 }
